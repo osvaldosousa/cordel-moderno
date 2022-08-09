@@ -8,20 +8,20 @@
 
 .main-header {
   background-color: black;
-  font-family: var(--fonte1);
   color: white;
   text-align: center;
 }
 
 .main-header .main-title {
   padding-top: 50px;
-  font-size: 10vw;
+  font-family: var(--fonte1);
   font-variant: small-caps;
+  font-size: 10vw;
 }
 
 .main-header .p-link {
   padding-bottom: 50px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 a {
@@ -39,7 +39,7 @@ a:hover {
   padding-left: 30px;
   line-height: 2em;
   font-family: var(--fonte2);
-  font-size: 4vw;
+  font-size: 3.5vw;
   background-color: white;
 }
 
