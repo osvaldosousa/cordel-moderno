@@ -1,26 +1,27 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root {
-  --fonte2: 'Passion One', cursive;
-  --fonte3: 'Sriracha', cursive;
+  --fonte1: 'Passion One', cursive;
+  --fonte2: 'Sriracha', cursive;
 }
 
 .main-header {
   background-color: black;
+  font-family: var(--fonte1);
   color: white;
   text-align: center;
 }
 
 .main-header .main-title {
-  font-family: var(--fonte2);
   padding-top: 50px;
   font-size: 10vw;
+  font-variant: small-caps;
 }
 
 .main-header .p-link {
-  font-size: 1.3em;
   padding-bottom: 50px;
+  font-size: 1.2em;
 }
 
 a {
@@ -32,72 +33,46 @@ a:hover {
   text-decoration: underline;
 }
 
-.main-verso{
+.section-verso{
   padding-top: 10vh;
+  padding-bottom: 10vh;
   padding-left: 30px;
   line-height: 2em;
-  font-family: var(--fonte3);
+  font-family: var(--fonte2);
+  font-size: 4vw;
+  background-color: white;
 }
 
-.main-verso.-img {
+.section-verso.-img {
+  color: white;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
 }
 
 .paragrafo {
-  padding: 10px;
-  font-size: 1em;
+  padding-bottom: 2em;
 }
 
-.p-bottom {
-  margin-bottom: 20px;
-}
-
-.main-verso.-primeiro {
-  background-color: white;
-  padding-bottom: 20px;
-}
-
-.paragrafo.-bottom {
-  padding-bottom: 90px;
-}
-
-.main-verso.-segundo {
-  background: white url(../assets/imagens/background001.jpg) no-repeat fixed right center;
-  background-size: cover;
-  padding: 28px;
-}
-
-.paragrafo.-img1 {
+.paragrafo.-img {
   display: inline-block;
-}
-
-.paragrafo.-Bg {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.514)
-}
-
-.main-verso.-terceiro {
-  background-color: white;
-}
-
-.main-verso.-quarto {
-  background: black url(../assets/imagens/background002.jpg) no-repeat fixed top center;
-  background-size: cover;
-  padding: 28px;
-}
-
-.paragrafo.-img2 {
-  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-shadow: 1px 1px 0px black;
   padding: 5px;
 }
 
-.main-verso.-quinto {
-  background-color: white;
+.section-verso.-img1 {
+  background: url(../assets/imagens/background001.jpg) no-repeat fixed right center;
+  background-size: cover;
 }
+
+.section-verso.-img2 {
+  background: url(../assets/imagens/background002.jpg) no-repeat fixed top center;
+  background-size: cover;
+}
+
 
 .rodape {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5vw;
   color: white;
   padding: 10px;
   background-color: black;
