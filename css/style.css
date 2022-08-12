@@ -46,6 +46,7 @@ a:hover {
 .section-verso.-img {
   color: white;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
+  
 }
 
 .paragrafo {
@@ -56,7 +57,7 @@ a:hover {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.514);
   text-shadow: 1px 1px 0px black;
-  padding: 5px;
+  padding: 5px 5px 5px 2.5px;
 }
 
 .section-verso.-img1 {
